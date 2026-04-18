@@ -9,9 +9,9 @@ export default defineConfig({
       entry: "src/main.ts",
       userscript: {
         name: packageJson.name,
-        namespace: "https://github.com/hotarunw",
+        namespace: `https://github.com/${packageJson.author}`,
         version: packageJson.version,
-        author: "hotarunw",
+        author: packageJson.author,
         description: packageJson.description,
         match: ["https://sv.pokesol.com/*"],
         license: packageJson.license,

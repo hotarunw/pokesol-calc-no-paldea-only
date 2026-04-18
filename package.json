@@ -1,5 +1,6 @@
 {
   "name": "pokesol-calc-no-paldea-only",
+  "author": "hotarunw",
   "private": true,
   "version": "1.0.0",
   "description": "ポケソルダメージ計算/ポケモン管理サイトで、パルデアポケモンのみのトグルを自動でオフにする",
